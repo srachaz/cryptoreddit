@@ -1,0 +1,117 @@
+.main{
+    display: flex;
+    justify-content:  space-between;
+}
+
+.Rightbar{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px
+
+}
+
+.logostyle{
+    width: 29px;
+    height: 29px;
+    
+}
+
+.logonamestyle{
+    width: 50px;
+    height: 16px;
+    margin-left: 8px;
+
+}
+
+.logoContainerPart2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.homestyle{
+    width: 20px;
+    height: 20px;
+}
+
+.searchstyle{
+    width: 22px;
+    height: 22px;
+}
+
+.Centerbar{
+    flex: 2;
+    margin-top: 16px;
+    margin-right: 10%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.Centerbar:hover{
+    border: 1px solid rgb(161, 160, 160);
+    border-radius: 20px;
+    flex: 2;
+    padding-right: 10%;
+    margin-top: 16px;
+    margin-right: 10%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.SearchBox{
+    width:100vh;
+    border: none;
+    background-color: black;
+    outline: none;
+}
+
+.Leftbar{
+    margin-right: 40px;
+    flex:1;
+    display: flex;
+}
+.profileIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.popularicon{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.message{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.notification{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+
+.adscontent{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+
+.ads{
+    width: 20px;
+    height: 20px; 
+    margin-left: 20px;
+
+}
