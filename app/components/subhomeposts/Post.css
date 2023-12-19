@@ -1,0 +1,10 @@
+.PostTopItemContainer{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Cardcon{
+    width: 30px;
+    height: 30px;
+}

@@ -11,10 +11,7 @@ import addicon from "../../ImageForReddit/icons8-plus-24.png"
 import ads from "../../ImageForReddit/ads.png"
 import popular from "../../ImageForReddit/popular.png"
 import profileIcon from "../../ImageForReddit/profile.png"
-
-
-
-
+import showmore from "../../ImageForReddit/down.png"
 
 
 
@@ -96,6 +93,13 @@ export default function Navbar() {
                     <div style={{marginTop:4}}>
                         <p style={{fontSize:11}}>Gradworld</p>
                         <p style={{fontSize:11}}>32 Karma</p>
+                    </div>
+                    <div>
+                    <Image
+                        src={showmore}
+                        className="showmore"
+                        alt="logo"
+                                    />
                     </div>
                 </div>
             </div>
