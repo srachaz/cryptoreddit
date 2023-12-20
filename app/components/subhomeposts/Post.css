@@ -1,10 +1,52 @@
 .PostTopItemContainer{
     display: flex;
     align-items: center;
+   margin-left: 30px;
     
+}
+.moreIcon{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.linkIcons{
+    width: 20px;
+    height: 20px;
 }
 
 .Cardcon{
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
+    margin-top: 20px;
+    /* margin-left: auto; */
+}
+.PostContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.postContainerLeftbar{
+    flex:0.3;
+    margin-bottom: 46%;
+}
+.postContainerRightbar{
+    flex:3;
+}
+.PostContainer:hover{
+    outline: 0.3px solid rgb(154,154,154);
+    padding: 4px;
+
+}
+.profile{
+    width: 26px;
+    height: 26px;
+}
+.postImage{
+    width: 90%;
+    height: 40vh;
+    object-fit: contain;
 }
