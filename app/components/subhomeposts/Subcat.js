@@ -1,5 +1,13 @@
 import React from 'react'
 import "./Post.css";
+import Image from "next/image"; 
+import besticon from "../../../ImageForReddit/icons8-rocket-64.png";
+import HotIcon from "../../../ImageForReddit/icons8-hot-30.png";
+import Newicon from "../../../ImageForReddit/icons8-new-50.png";
+import Topicon from "../../../ImageForReddit/icons8-up-80.png";
+import showmore from "../../../ImageForReddit/icons8-dot-67.png";
+import Card from "../../../ImageForReddit/card.png";
+
 
 export default function Subcat() {
   return (
